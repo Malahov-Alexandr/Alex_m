@@ -2,7 +2,7 @@ import pytest
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 
-import pageObjects.LoginPage as lp
+from pageObject.LoginPage import LoginPage
 
 
 
